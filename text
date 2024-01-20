@@ -1,0 +1,72 @@
+1:
+    Describe what virtualenv is and why it's useful in Python development. Provide steps to create and activate a virtual environment.
+
+    Опишите, что такое virtualenv и почему он полезен при разработке на Python. Предоставьте инструкции по созданию и активации виртуальной среды?
+
+   вертуални мухити вертуалиест ки барои канфлиг накардани файлхо истифода мебаранд яьне агар мо мухити вертуали накунем  мо наметавонем ду файли яхела дошта бошем.бояд мо номи файлро pip venu монем. 
+
+
+2:
+    Differentiate between an expression and a statement in Python. Give an example of each.
+    Различие между выражением и оператором в Python. Приведите пример каждого.
+
+   expression мисли statement аст аммо он бояд баргардонида шавад statement ягон коро карданро ифода мекунад Мисол чоп кардан ном мондан
+
+
+3:
+    Write a Python expression that checks if a given number, x, is even and returns "Even" if it is, and "Odd" if it's not.
+
+    Напишите код, которое проверяет, является ли заданное число четным, и возвращает «Четное число», если это так, и «Нечетное число», если нет.
+           
+     x = int(input())
+     if x%2==0:
+         print("Even")
+     elif x%2!=0:
+         print("Odd")
+
+
+4:
+    Explain the purpose of a try-except block in Python. Provide an example of how it can be used to handle exceptions.
+
+    Объясните назначение блока try-except. Приведите пример того, как его можно использовать.
+   try-except барои коди мо агар кор накунад мо худамон ягончиз нишон дихем
+   мисол мо кодро менаваисем агар код дар ягончояш хато бошад дар except хато ё ки eror менависем.
+
+5:
+    What is the "match" statement introduced in Python 3.10? Provide an example of how it can be used with pattern matching.
+
+    Что такое оператор «match»? Приведите пример того, как его можно использовать. 
+    match монади if аст мо метавонем дар он ягон аломат монем  match чои худашро барои истифода бари дорад мисол  ба он калкулятр соз кардан осон мешавад ба if бошад вакти зиёд лозим аст
+
+6:
+    Write a "for" loop that prints the numbers from 1 to 10, inclusive.
+    
+    Напишите цикл for, который печатает числа от 1 до 10 включительно.
+   
+      for i in [1,2,3,4,5,6,7,8,9,10]:
+        print(i)
+
+
+
+7:
+    Create a Python function named "calculate_area" that takes the length and width of a rectangle as parameters and returns its area. Call this function with appropriate values and print the result.
+
+    Создайте функцию с именем «calculate_area», которая принимает длину и ширину прямоугольника в качестве параметров и возвращает его площадь. Вызовите эту функцию с соответствующими значениями и распечатайте результат.
+            a = int(input()) 
+      b = int(input())
+      print(a*b) 
+
+
+
+8:
+    Explain the differences between tuples, lists, dictionaries, and sets in Python. Provide a use case for each data structure.
+
+    Объясните различия между кортежами, списками, словарями и множествами в Python. Предоставьте вариант использования для каждой структуры данных.
+      
+    list ба монанди кантенер аст ки мо бо он метавонем дар даруни он чанд ракам яки харф гирем ба монади арай  dictionaries ин мисли list аст аммо мо дар он метавонем дар индексхо ном монем
+
+
+     
+
+
+  
